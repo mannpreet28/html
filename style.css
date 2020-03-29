@@ -135,6 +135,36 @@ ul li {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+#doctors-section .sub-section article .text-doc {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+article .text-doc h4 {
+  font-size: 1.5rem;
+}
+
+#team-section {
+  background-color: #4f6aec;
+  margin: 10px;
+}
+#team-section .site-title {
+  color: white;
+  font-size: 2rem;
+}
+#team-section .sub-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.text-team {
+  color: white;
+}
+
+.text-team p {
+  font-size: 1.5rem;
+}
 
 footer {
   border-top: 4px solid #4f6aec;
