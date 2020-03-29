@@ -74,3 +74,11 @@ footer{
   white-space: nowrap; /* added line */
 }
 
+a[href="https://facebook.com"]::before{
+  font-family: "Font Awesome 5 Brands";
+  content: "\f082";
+  color:orangered;
+  //font-style: 1rem;
+  font-size: 3rem;
+
+}
