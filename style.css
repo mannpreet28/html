@@ -163,8 +163,7 @@ article .text-doc h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
-.text-team {
+#team-section .sub-section article .text-team {
   color: white;
 }
 
