@@ -1,0 +1,10 @@
+.sub-section
+
+.doctors-section{
+  background-color:#4f6aec;
+
+  .sub-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
