@@ -8,6 +8,8 @@ header {
   color: #4f6aec;
   font-size: 4rem;
   margin: 0;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .menu-wrapper ul {
@@ -15,7 +17,8 @@ header {
 }
 
 .menu-wrapper {
-  align-self: end;
+  align-self: center;
+  margin-right: 10px;
 }
 
 ul li {
