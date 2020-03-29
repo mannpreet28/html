@@ -1,0 +1,8 @@
+.video-section{
+  margin: 10px;
+
+  .sub-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
