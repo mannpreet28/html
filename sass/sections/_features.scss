@@ -1,0 +1,50 @@
+#features-section{
+
+  .section-title{
+    color: red;
+  }
+
+  .sub-section{
+    display: flex;
+
+    article{
+      .img-wrapper{
+
+      }
+
+    }
+  }
+
+
+  .team-members{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+  }
+
+  .feature-img-member{
+    border-radius: 50%;
+    max-width: 140px;
+  }
+
+  .m{
+    text-align: center;
+  }
+
+
+  .doctors{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .docimg{
+    text-align: center;
+  }
+
+  .feature-bio-img{
+    border-radius: 30%;
+  }
+
+
+}

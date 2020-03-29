@@ -1,0 +1,27 @@
+header{
+  display: flex;
+}
+
+.site-title{
+  flex-grow: 1;
+}
+
+.menu-wrapper ul{
+  display: flex;
+}
+
+.menu-wrapper{
+  align-self: end;
+}
+
+
+ul li{
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 6px;
+  /* padding-bottom: 0; */
+}
+
