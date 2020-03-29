@@ -2,8 +2,7 @@
 
 
   .sub-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 
     article{
       margin: 10px;
