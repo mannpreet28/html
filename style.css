@@ -94,8 +94,7 @@ ul li {
 }
 
 #shop-section .sub-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
 }
 #shop-section .sub-section article {
   margin: 10px;
@@ -105,6 +104,14 @@ ul li {
   margin: 10px;
 }
 #video-section .sub-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#doctors-section {
+  background-color: #4f6aec;
+}
+#doctors-section .sub-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
