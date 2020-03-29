@@ -63,6 +63,8 @@ ul li {
 }
 #features-section .section-title {
   color: white;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 #features-section .sub-section {
   display: flex;
@@ -78,6 +80,9 @@ ul li {
 }
 #features-section .sub-section article .icons {
   text-align: center;
+}
+#features-section .sub-section article .icons .icon-wrap {
+  margin-top: 20px;
 }
 #features-section .team-members {
   display: grid;
