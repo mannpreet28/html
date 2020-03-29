@@ -109,13 +109,17 @@ ul li {
   color: #4f6aec;
 }
 
+#shop-section {
+  margin: 10px;
+}
+#shop-section .site-title {
+  margin: 10px;
+  color: #4f6aec;
+  font-size: 2rem;
+}
 #shop-section .sub-section {
   display: flex;
 }
-#shop-section .sub-section article {
-  margin: 10px;
-}
-
 #video-section {
   margin: 10px;
 }
@@ -165,6 +169,7 @@ article .text-doc h4 {
 }
 #team-section .sub-section article .text-team {
   color: white;
+  text-align: center;
 }
 
 .text-team p {

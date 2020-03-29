@@ -1,11 +1,17 @@
 #shop-section{
+  margin: 10px;
 
+  .site-title{
+    margin: 10px;
+    color: #4f6aec;
+    font-size: 2rem;
+  }
 
   .sub-section{
     display: flex;
 
     article{
-      margin: 10px;
+      //margin: 10px;
     }
   }
 }
