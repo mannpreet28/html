@@ -6,15 +6,20 @@
     color: white;
     font-size: 2rem;
   }
+
   .sub-section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+
+    article{
+      .text-team{
+        color: white;
+      }
+    }
   }
 }
 
-.text-team{
-  color: white;
-}
+
 
 .text-team p{
   font-size: 1.5rem;
