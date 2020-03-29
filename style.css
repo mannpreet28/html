@@ -119,6 +119,7 @@ ul li {
 
 footer {
   border-top: 4px solid #4f6aec;
+  margin: 10px;
 }
 footer .footer {
   display: grid;
@@ -161,7 +162,7 @@ footer .social-icons .menu-social-search {
   color: #4f6aec;
 }
 
-.open {
+.header-hour {
   font-size: 2rem;
   color: #4f6aec;
 }
