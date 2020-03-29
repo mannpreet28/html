@@ -13,6 +13,10 @@ footer{
   .social-icons{
     align-self: center;
     margin: 10px;
+
+    .menu-social-search{
+      display: flex;
+    }
   }
 
 }
@@ -20,9 +24,6 @@ footer{
 
 
 
-.social-icons{
-  align-self: center;
-}
 
 .contact{
   align-self: center;

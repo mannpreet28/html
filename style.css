@@ -131,9 +131,8 @@ footer .social-icons {
   align-self: center;
   margin: 10px;
 }
-
-.social-icons {
-  align-self: center;
+footer .social-icons .menu-social-search {
+  display: flex;
 }
 
 .contact {
