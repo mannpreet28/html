@@ -1,23 +1,93 @@
-/* HEADER PART */
-/* SITE-MAIN */
-.home-page {
+header {
+  display: flex;
+}
+
+.site-title {
+  flex-grow: 1;
+}
+
+.menu-wrapper ul {
+  display: flex;
+}
+
+.menu-wrapper {
+  align-self: end;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 6px;
+  /* padding-bottom: 0; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#features-section .section-title {
+  color: red;
+}
+#features-section .sub-section {
+  display: flex;
+}
+#features-section .team-members {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#features-section .feature-img-member {
+  border-radius: 50%;
+  max-width: 140px;
+}
+#features-section .m {
+  text-align: center;
+}
+#features-section .doctors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+#features-section .docimg {
+  text-align: center;
+}
+#features-section .feature-bio-img {
+  border-radius: 30%;
 }
 
-/* ARTICLE 1 */
-/* ARTICLE 2 */
-/* ARTICLE 3 */
-.features {
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-social-search {
   display: flex;
 }
 
-/* ARTICLE 4 */
-.shop {
-  display: flex;
+.menu-social-search li {
+  align-self: center;
 }
 
-/* ARTICLE 5 */
-/* ARTICLE 6 */
-/* FOOTER PART */
+.menu-social-search li a {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */
