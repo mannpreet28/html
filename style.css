@@ -117,14 +117,17 @@ ul li {
   grid-template-columns: 1fr 1fr;
 }
 
-.footer {
+footer {
+  border-top: 4px solid #4f6aec;
+}
+footer .footer {
   display: flex;
   justify-content: space-between;
   margin: 10px;
 }
-
-footer {
-  border-top: 4px solid #4f6aec;
+footer .social-icons {
+  align-self: center;
+  margin: 10px;
 }
 
 .social-icons {
