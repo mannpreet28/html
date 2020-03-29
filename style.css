@@ -152,8 +152,11 @@ footer .social-icons .menu-social-search {
   text-align: center;
 }
 
-.contact {
+#contact {
   align-self: center;
+}
+#contact .contact-header {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
