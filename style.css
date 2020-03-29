@@ -117,12 +117,9 @@ ul li {
   grid-template-columns: 1fr 1fr;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
-}
-
-.footer {
   margin: 10px;
 }
 
