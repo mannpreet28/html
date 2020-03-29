@@ -120,7 +120,7 @@ ul li {
 #top-section .section-title {
   color: #4f6aec;
   font-size: 2rem;
-  margin: 10px;
+  margin-left: 10px;
 }
 
 #shop-section {
@@ -134,6 +134,10 @@ ul li {
 #shop-section .sub-section {
   display: flex;
 }
+#shop-section .sub-section article {
+  margin: 10px;
+}
+
 #video-section {
   margin: 10px;
 }
