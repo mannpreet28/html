@@ -113,7 +113,7 @@ ul li {
 #shop-section {
   margin: 10px;
 }
-#shop-section .site-title {
+#shop-section .section-title {
   margin: 10px;
   color: #4f6aec;
   font-size: 2rem;
@@ -124,7 +124,7 @@ ul li {
 #video-section {
   margin: 10px;
 }
-#video-section .site-title {
+#video-section .section-title {
   color: #4f6aec;
   font-size: 2rem;
 }
@@ -160,7 +160,7 @@ article .text-doc h4 {
   background-color: #4f6aec;
   margin: 10px;
 }
-#team-section .site-title {
+#team-section .section-title {
   color: white;
   font-size: 2rem;
 }
