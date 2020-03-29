@@ -121,9 +121,11 @@ footer {
   border-top: 4px solid #4f6aec;
 }
 footer .footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.8rem;
+  padding-top: 2rem;
+  margin: auto;
 }
 footer .social-icons {
   align-self: center;
