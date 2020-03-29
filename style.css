@@ -93,18 +93,18 @@ ul li {
   border-radius: 30%;
 }
 
-.shop-section .sub-section {
+#shop-section .sub-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.shop-section .sub-section article {
+#shop-section .sub-section article {
   margin: 10px;
 }
 
-.video-section {
+#video-section {
   margin: 10px;
 }
-.video-section .sub-section {
+#video-section .sub-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
