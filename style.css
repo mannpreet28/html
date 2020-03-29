@@ -110,6 +110,7 @@ ul li {
 
 #doctors-section {
   background-color: #4f6aec;
+  margin: 10px;
 }
 #doctors-section .sub-section {
   display: grid;
