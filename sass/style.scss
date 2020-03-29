@@ -1,40 +1,23 @@
+//IMPORTING HEADER
+@import "header/header";
+
+
+//IMPORTING ELEMENTS
+@import 'elements/elements';
+
+
+//IMPORTING  SECTIONS
+@import "sections/sections";
+
+
+//IMPORTING VARIABLES
+@import "variables/variables";
 
 
 
-/* HEADER PART */
-
-/* SITE-MAIN */
-.home-page{
-  display: grid;
-}
-
-/* ARTICLE 1 */
+//IMPORTING FOOTER
+@import "footer/footer";
 
 
-/* ARTICLE 2 */
-
-
-
-/* ARTICLE 3 */
-.features{
-  display: flex;
-}
-
-
-/* ARTICLE 4 */
-.shop{
-  display: flex;
-}
-
-/* ARTICLE 5 */
-
-
-
-
-/* ARTICLE 6 */
-
-
-
-/* FOOTER PART */
 
 
