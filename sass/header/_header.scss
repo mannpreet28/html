@@ -4,6 +4,9 @@ header{
 
 .site-title{
   flex-grow: 1;
+  color: #4f6aec;
+  font-size: 4rem;
+  margin: 0;
 }
 
 .menu-wrapper ul{
@@ -22,6 +25,9 @@ ul li{
 ul li a{
   text-decoration: none;
   padding: 6px;
+  font-size: 1.2rem
   /* padding-bottom: 0; */
 }
+
+
 

@@ -4,6 +4,9 @@ header {
 
 .site-title {
   flex-grow: 1;
+  color: #4f6aec;
+  font-size: 4rem;
+  margin: 0;
 }
 
 .menu-wrapper ul {
@@ -21,7 +24,7 @@ ul li {
 ul li a {
   text-decoration: none;
   padding: 6px;
-  /* padding-bottom: 0; */
+  font-size: 1.2rem;
 }
 
 body {
@@ -135,6 +138,11 @@ footer .social-icons {
 footer .social-icons .menu-social-search {
   display: flex;
   justify-content: center;
+}
+
+.map h1 {
+  color: #4f6aec;
+  font-size: 2.2rem;
 }
 
 .menu-social-search {
