@@ -99,6 +99,10 @@ ul li {
   border-radius: 30%;
 }
 
+#top-section .section-title {
+  color: #4f6aec;
+}
+
 #shop-section .sub-section {
   display: flex;
 }
@@ -117,6 +121,10 @@ ul li {
 #doctors-section {
   background-color: #4f6aec;
   margin: 10px;
+}
+#doctors-section .section-title {
+  color: #4f6aec;
+  font-size: 2rem;
 }
 #doctors-section .sub-section {
   display: grid;
