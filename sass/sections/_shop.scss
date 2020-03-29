@@ -1,8 +1,9 @@
 .shop-section{
-  
+
 
   .sub-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
     article{
       margin: 10px;
