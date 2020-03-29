@@ -133,6 +133,7 @@ footer .social-icons {
 }
 footer .social-icons .menu-social-search {
   display: flex;
+  justify-content: center;
 }
 
 .contact {
@@ -149,6 +150,10 @@ footer .social-icons .menu-social-search {
 
 .menu-social-search li a {
   text-decoration: none;
+}
+
+.f-copy {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
