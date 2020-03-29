@@ -157,6 +157,12 @@ footer .social-icons .menu-social-search {
 }
 #contact .contact-header {
   font-size: 2rem;
+  color: #4f6aec;
+}
+
+.open {
+  font-size: 2rem;
+  color: #4f6aec;
 }
 
 /*# sourceMappingURL=style.css.map */
