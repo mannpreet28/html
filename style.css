@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: flex;
   border-bottom: 3px solid #4f6aec;
@@ -34,6 +35,13 @@ ul li a {
 ul li a:hover {
   background-color: #4f6aec;
   color: white;
+}
+
+a[href="https://facebook.com"]::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  color: orangered;
+  font-size: 3rem;
 }
 
 body {
@@ -112,6 +120,7 @@ ul li {
 #top-section .section-title {
   color: #4f6aec;
   font-size: 2rem;
+  margin: 10px;
 }
 
 #shop-section {
