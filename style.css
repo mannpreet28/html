@@ -113,6 +113,10 @@ ul li {
 #video-section {
   margin: 10px;
 }
+#video-section .site-title {
+  color: #4f6aec;
+  font-size: 2rem;
+}
 #video-section .sub-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -123,8 +127,9 @@ ul li {
   margin: 10px;
 }
 #doctors-section .section-title {
-  color: #4f6aec;
+  color: white;
   font-size: 2rem;
+  margin: 8px;
 }
 #doctors-section .sub-section {
   display: grid;
