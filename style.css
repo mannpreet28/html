@@ -167,6 +167,7 @@ article .text-doc h4 {
 #team-section .section-title {
   color: white;
   font-size: 2rem;
+  margin: 10px;
 }
 #team-section .sub-section {
   display: grid;
