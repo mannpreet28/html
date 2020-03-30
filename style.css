@@ -29,7 +29,7 @@ ul li {
   font-size: 1.2rem;
   color: #4f6aec;
   /* padding-bottom: 0; */
-  transition: all 0.5s ease-out;
+  transition: all 0.5ms ease-out;
 }
 
 .menu-main li a:hover {
@@ -224,12 +224,14 @@ footer .social-icons .menu-social-search {
 .menu-social-search li a {
   background-color: white;
   color: #4f6aec;
-  transition: all 0.5s ease-in;
+  padding: 6px;
+  font-size: 1.2rem;
+  transition: all 0.5ms ease-in;
 }
 
 .menu-social-search li a:hover {
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .f-copy {
