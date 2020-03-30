@@ -40,10 +40,10 @@ footer{
 .menu-social-search li a{
   background-color: white;
   color: #4f6aec;
-  transition: all .5s ease ;
+  transition: all .5s ease-in ;
 }
 
-.menu-social-search li:hover a{
+.menu-social-search li a:hover{
   text-decoration: none;
   font-size: 3rem;
 }
