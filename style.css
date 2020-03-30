@@ -67,7 +67,7 @@ ul li {
 }
 
 #features-section {
-  margin: 10px;
+  padding: 10px;
   background-color: #4f6aec;
 }
 #features-section .section-title {
@@ -169,6 +169,7 @@ article .text-doc h4 {
 
 #team-section {
   background-color: #4f6aec;
+  padding: 10px;
 }
 #team-section .section-title {
   color: white;
