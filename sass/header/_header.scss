@@ -28,15 +28,16 @@ ul li{
 .menu-main li a{
   text-decoration: none;
   padding: 6px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color:#4f6aec;
   /* padding-bottom: 0; */
-  transition: all .5ms ease-in;
+  transition: all .5s ease-in;
 }
 
 .menu-main li a:hover{
   background-color: #4f6aec;
   color: white;
+  font-size: 1.2rem;
 }
 
 
