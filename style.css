@@ -150,12 +150,11 @@ ul li {
 
 #doctors-section {
   background-color: #4f6aec;
-  margin: 10px;
+  padding: 10px;
 }
 #doctors-section .section-title {
   color: white;
   font-size: 2rem;
-  margin: 8px;
 }
 #doctors-section .sub-section {
   display: grid;
