@@ -134,7 +134,7 @@ ul li {
 }
 
 #video-section {
-  margin: 10px;
+  padding: 10px;
 }
 #video-section .section-title {
   color: #4f6aec;
@@ -169,12 +169,10 @@ article .text-doc h4 {
 
 #team-section {
   background-color: #4f6aec;
-  margin: 10px;
 }
 #team-section .section-title {
   color: white;
   font-size: 2rem;
-  margin: 10px;
 }
 #team-section .sub-section {
   display: grid;
@@ -191,7 +189,7 @@ article .text-doc h4 {
 
 footer {
   border-top: 4px solid #4f6aec;
-  margin: 10px;
+  padding: 10px;
 }
 footer .footer {
   display: grid;
