@@ -29,7 +29,7 @@ ul li {
   font-size: 1.2rem;
   color: #4f6aec;
   /* padding-bottom: 0; */
-  transition: all 0.5ms ease;
+  transition: all 0.5ms ease-in;
 }
 
 .menu-main li a:hover {
