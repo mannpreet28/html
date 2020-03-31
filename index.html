@@ -20,12 +20,12 @@
         <nav class="menu-wrapper">
     
           <ul class="menu-main">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Doctors</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#top-section">Home</a></li>
+            <li><a href="#features-section">Features</a></li>
+            <li><a href="#shop-section">Shop</a></li>
+            <li><a href="#doctors-section">Doctors</a></li>
+            <li><a href="#team-section">Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
 
     
@@ -308,7 +308,29 @@
   </footer>
 
 
+<script type="application/javascript">
 
+
+    let aClick = ( e ) => ;
+
+    let aList = document.querySelectorAll('header nav>ul>li>a');
+    Array.from( aList , function ( el , index ) {
+        el.addEventListener('click', function ( e ) {
+
+                e.preventDefault();
+                let href = e.target.getAttribute('href');
+                hrefArray = href.split('#');
+                href = hrefArray[1];
+                let offsetTop = document.getElementById(href).offsetTop;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+
+        } );
+    });
+
+</script>
 
 
 </body>

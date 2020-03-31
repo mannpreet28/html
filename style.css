@@ -45,6 +45,7 @@ ul li {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
@@ -64,6 +65,10 @@ ul {
 
 ul li {
   margin: 0;
+}
+
+article {
+  margin: 30px 45px;
 }
 
 #features-section {
@@ -156,6 +161,11 @@ ul li {
 #doctors-section .sub-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+#doctors-section .sub-section article {
+  padding: 15px;
+  margin: 30px 40px;
+  border: 1px solid white;
 }
 #doctors-section .sub-section article .text-doc {
   color: white;

@@ -12,10 +12,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    article .text-doc{
-      color: white;
-      text-align: center;
-      margin: 10px;
+    article{
+      padding: 15px;
+      margin: 30px 40px;
+      border: 1px solid white;
+
+      .text-doc{
+        color: white;
+        text-align: center;
+        margin: 10px;
+      }
     }
   }
 
