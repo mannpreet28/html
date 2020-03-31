@@ -85,17 +85,17 @@ article {
 }
 #features-section .sub-section article {
   display: grid;
-  margin: 10px;
-  border-radius: 80px;
+  padding: 35px 40px;
+  border-radius: 20px;
   border: 4px solid white;
-  grid-template-rows: 1fr 40px auto;
   background-color: white;
 }
 #features-section .sub-section article .icons {
   text-align: center;
 }
 #features-section .sub-section article .icons .icon-wrap {
-  margin-top: 20px;
+  width: 60%;
+  margin: auto;
 }
 #features-section .team-members {
   display: grid;
