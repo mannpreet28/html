@@ -208,7 +208,7 @@ article .text-doc h4 {
 
 footer {
   border-top: 4px solid #4f6aec;
-  padding: 10px;
+  padding: 30px;
 }
 footer .footer {
   display: grid;
@@ -217,6 +217,20 @@ footer .footer {
   padding-top: 2rem;
   margin: auto;
 }
+footer .footer .ftitle {
+  padding: 50px;
+  text-align: center;
+}
+footer .footer .ftitle h1 {
+  margin: 0;
+  color: #4f6aec;
+}
+footer .footer .ftitle .logo-wrap {
+  padding: 50px 50px 0px 50px;
+}
+footer .footer .ftitle .logo-wrap img {
+  width: 50%;
+}
 footer .social-icons {
   align-self: center;
   margin: 10px;
@@ -224,6 +238,10 @@ footer .social-icons {
 footer .social-icons .menu-social-search {
   display: flex;
   justify-content: center;
+}
+
+.social-icons {
+  padding: 30px 30px 0px 30px;
 }
 
 .Map h1 {
@@ -242,7 +260,7 @@ footer .social-icons .menu-social-search {
 .menu-social-search li a {
   background-color: white;
   color: #4f6aec;
-  padding: 6px;
+  padding: 12px;
   font-size: 1.5rem;
   transition: all 0.5s ease-out;
 }
