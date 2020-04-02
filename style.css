@@ -183,11 +183,17 @@ article {
   text-align: end;
 }
 .pbtn .btn-shop {
-  color: white;
+  color: black;
   padding: 5px;
-  background-color: #4f6aec;
+  background-color: transparent;
   width: 40%;
   border-radius: 28px;
+  border: 2px solid #4f6aec;
+}
+
+.pbtn .btn-shop:hover {
+  background-color: #4f6aec;
+  color: white;
 }
 
 .shop-wrap img:hover {
