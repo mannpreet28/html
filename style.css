@@ -213,6 +213,20 @@ article {
   grid-template-columns: 1fr 1fr;
 }
 
+.sub-section article:nth-of-type(2) {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+article .dwn-wrap {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+article .dwn-wrap img {
+  max-width: 40%;
+}
+
 #doctors-section {
   background-color: #4f6aec;
   padding: 10px;
