@@ -166,6 +166,9 @@ article {
 #shop-section .sub-section article .shop-wrap {
   padding: 20px;
 }
+#shop-section .sub-section article .shop-wrap img {
+  border-radius: 2%;
+}
 #shop-section .sub-section article .text-brand {
   display: grid;
   grid-template-columns: 1fr 1fr;
