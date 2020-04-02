@@ -1,18 +1,29 @@
 header {
   display: flex;
   border-bottom: 3px solid #4f6aec;
-  padding: 15px 15px 0px 15px;
+  padding: 15px 15px 0px 0px;
 
-   h1 {
-    flex-grow: 1;
-    color: #4f6aec;
-    font-size: 2rem;
-    margin: 0;
-    align-self: center;
-    font-family: 'Poppins', sans-serif;
-  }
 }
 
+.top-logo{
+  display: flex;
+  flex-grow: 1;
+        .tlogo-wrap {
+            display: flex;
+            img {
+            width: 20%;
+               }
+            }
+}
+
+.top-logo  h1 {
+  flex-grow: 1;
+  color: #4f6aec;
+  font-size: 2.5rem;
+  margin: 0;
+  align-self: center;
+  font-family: 'Poppins', sans-serif;
+}
 
 .menu-wrapper ul{
   display: flex;

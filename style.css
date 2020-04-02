@@ -1,12 +1,24 @@
 header {
   display: flex;
   border-bottom: 3px solid #4f6aec;
-  padding: 15px 15px 0px 15px;
+  padding: 15px 15px 0px 0px;
 }
-header h1 {
+
+.top-logo {
+  display: flex;
+  flex-grow: 1;
+}
+.top-logo .tlogo-wrap {
+  display: flex;
+}
+.top-logo .tlogo-wrap img {
+  width: 20%;
+}
+
+.top-logo h1 {
   flex-grow: 1;
   color: #4f6aec;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0;
   align-self: center;
   font-family: "Poppins", sans-serif;
