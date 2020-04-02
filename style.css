@@ -139,6 +139,9 @@ article {
   margin-left: 10px;
 }
 
+#shop-section {
+  padding: 10px;
+}
 #shop-section .section-title {
   margin: 10px;
   color: #4f6aec;
@@ -146,9 +149,42 @@ article {
 }
 #shop-section .sub-section {
   display: flex;
+  padding: 30px;
 }
 #shop-section .sub-section article {
-  margin: 10px;
+  display: inline-block;
+  margin: 0 11px 0 0;
+  box-sizing: border-box;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  box-shadow: none;
+  line-height: 15px;
+  overflow: hidden;
+  vertical-align: top;
+  height: 100%;
+}
+#shop-section .sub-section article .shop-wrap {
+  padding: 20px;
+}
+#shop-section .sub-section article .text-brand {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.model-no p {
+  margin: 0;
+}
+
+.pbtn {
+  text-align: end;
+}
+.pbtn .btn-shop {
+  color: white;
+  padding: 5px;
+  background-color: #4f6aec;
+  width: 40%;
+  border-radius: 28px;
 }
 
 #video-section {
